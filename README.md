@@ -11,7 +11,7 @@ As a first step in your program, apply Forward Checking to cells that already ha
 assigned to them and reduce the domain of their neighbors. If any cell has an empty domain after
 applying Forward Checking, then the puzzle does not have a solution and the program can stop and
 exit. Here, you run the Forward Checking algorithm before you run the Backtracking Algorithm
-for CSPs. Next, use the Backtracking Algorithm in Figure 4 below to solve for a solution.
+for CSPs. Next, use the Backtracking Algorithm in below to solve for a solution.
 Implement the function SELECT-UNASSIGNED-VARIABLE by using the minimum remaining
 value heuristic and then the degree heuristic. If there are more than one variables left after applying
 the two heuristics, you can arbitrarily choose a variable to work on next. You do not have to
